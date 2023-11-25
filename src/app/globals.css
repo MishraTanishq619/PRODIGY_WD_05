@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background-color: rgb(106, 226, 226);
+	background-image: url("../assets/clouds.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
+}
+
+#main {
+	height: 80%;
+	width: 80%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid black;
+}
